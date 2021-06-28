@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
+        "projectName": "GameEngine.Tests",
+        "projectPath": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
+        "packagesPath": "C:\\Users\\e7897bt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e7897bt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine\\GameEngine.csproj": {
+                "projectPath": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine\\GameEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine\\GameEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine\\GameEngine.csproj",
+        "projectName": "GameEngine",
+        "projectPath": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine\\GameEngine.csproj",
+        "packagesPath": "C:\\Users\\e7897bt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e7897bt\\source\\repos\\Pluralsight\\Xunit_GettingStarted\\GameEngine\\GameEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e7897bt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
