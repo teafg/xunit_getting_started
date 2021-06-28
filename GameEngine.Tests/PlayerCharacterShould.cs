@@ -23,5 +23,31 @@ namespace GameEngine.Tests
 
             Assert.Equal("Sarah Parker", sut.FullName);
         }
+
+        [Fact]
+        public void StartWithDefualtHealth()
+        {
+            var sut = new PlayerCharacter();
+
+            Assert.Equal(100, sut.Health);
+        }
+
+        [Fact]
+        public void IncreaseHealthAfterSleeping()
+        {
+            var sut = new PlayerCharacter();
+            sut.Sleep();
+
+            Assert.InRange(sut.Health, 101, 200);
+        }
+
+        [Fact]
+        public void NotHaveNickNameByDefault()
+        {
+            var sut = new PlayerCharacter();
+
+            Assert.Null(sut.Nickname);
+        }
+
     }
 }
